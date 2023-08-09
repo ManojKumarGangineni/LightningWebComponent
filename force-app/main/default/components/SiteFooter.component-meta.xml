@@ -3,9 +3,4 @@
     <apiVersion>55.0</apiVersion>
     <description>Default Lightning Platform site footer component</description>
     <label>SiteFooter</label>
-    <packageVersions>
-        <majorNumber>4</majorNumber>
-        <minorNumber>621</minorNumber>
-        <namespace>tfopencti</namespace>
-    </packageVersions>
 </ApexComponent>

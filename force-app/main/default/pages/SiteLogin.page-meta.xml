@@ -5,9 +5,4 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default Salesforce Sites Login page</description>
     <label>SiteLogin</label>
-    <packageVersions>
-        <majorNumber>4</majorNumber>
-        <minorNumber>621</minorNumber>
-        <namespace>tfopencti</namespace>
-    </packageVersions>
 </ApexPage>

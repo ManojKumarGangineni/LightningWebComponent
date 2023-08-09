@@ -5,9 +5,4 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Process self-registration requests in batches instead of individually</description>
     <label>MicrobatchSelfReg</label>
-    <packageVersions>
-        <majorNumber>4</majorNumber>
-        <minorNumber>621</minorNumber>
-        <namespace>tfopencti</namespace>
-    </packageVersions>
 </ApexPage>

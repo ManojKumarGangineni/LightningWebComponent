@@ -1,0 +1,28 @@
+<template>
+    
+    <lightning-input type="checkbox" label="Show Div" onchange= "{showDivHandler}" > 
+   
+</lightning-input>
+<template if:true={displayDivTag}>
+    <div> This is Div Tag checked </div>
+</template>
+
+<template for:each={Ganginenifamily} for:item="gangineni">
+    <p key={id} >{gangineni}</p> 
+</template>
+<lightning-card title="Account List using for:each" icon-name="custom:custom63">
+    <div class="slds-m-around_medium">
+       <template if:true={accounts.data}>
+        <template for:each={accounts.data} for:item="acc">
+            <p key={accid}> {acc.Name} </acc></p>
+        </template>
+       </template>
+       <template if:true={accounts.error}>
+        {accounts.error}
+    </template>
+    <template for:each={listoffamilynames} for:item="family">
+        <li key={fid}>{family.Id},{family.FatherName},{family.MotherName} </li>
+    </template>
+    </div>
+</lightning-card>
+</template>

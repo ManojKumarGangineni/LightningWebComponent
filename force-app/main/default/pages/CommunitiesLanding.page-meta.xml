@@ -5,9 +5,4 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default experiences landing page</description>
     <label>CommunitiesLanding</label>
-    <packageVersions>
-        <majorNumber>4</majorNumber>
-        <minorNumber>621</minorNumber>
-        <namespace>tfopencti</namespace>
-    </packageVersions>
 </ApexPage>

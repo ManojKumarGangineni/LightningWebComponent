@@ -5,9 +5,4 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default Lightning Platform Page/Data Not Found page</description>
     <label>FileNotFound</label>
-    <packageVersions>
-        <majorNumber>4</majorNumber>
-        <minorNumber>621</minorNumber>
-        <namespace>tfopencti</namespace>
-    </packageVersions>
 </ApexPage>
