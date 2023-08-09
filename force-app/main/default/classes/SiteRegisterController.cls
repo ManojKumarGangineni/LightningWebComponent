@@ -34,6 +34,7 @@ public with sharing class SiteRegisterController {
         String accountId = PORTAL_ACCOUNT_ID;
 
         // lastName is a required field on user, but if it isn't specified, we'll default it to the username
+        //Manoj - using the package 
         String userId = Site.createPortalUser(u, accountId, password);
         if (userId != null) { 
             if (password != null && password.length() > 1) {
