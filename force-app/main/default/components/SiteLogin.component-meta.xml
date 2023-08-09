@@ -3,9 +3,4 @@
     <apiVersion>55.0</apiVersion>
     <description>Default Salesforce Sites Login component</description>
     <label>SiteLogin</label>
-    <packageVersions>
-        <majorNumber>4</majorNumber>
-        <minorNumber>621</minorNumber>
-        <namespace>tfopencti</namespace>
-    </packageVersions>
 </ApexComponent>

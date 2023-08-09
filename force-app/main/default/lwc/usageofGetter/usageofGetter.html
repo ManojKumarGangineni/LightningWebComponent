@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Getter - ConcatenateValues ">
+        <div class="slds-var-p-around_small">
+        <lightning-input label="title" type="text " value={title} onchange={titleChanged}> </lightning-input>
+        <lightning-input label="first Name" value={firstName} onchange={firstNameChanged}> </lightning-input>
+        <lightning-input label="Last Name" value={lastName} onchange={lastNameChanged}> </lightning-input>
+    </div>
+    <div class="slds-var-p-top_small">
+        Full Name : {fullName}
+        </div>
+    </lightning-card>
+</template>
