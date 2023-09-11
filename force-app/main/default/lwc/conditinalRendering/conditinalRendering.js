@@ -17,12 +17,12 @@ export default class ConditinalRendering extends LightningElement {
                 'Id' :1,
                 'FatherName' : 'Manoj',
                 'MotherName' : 'Divya'
-            },
+                 },
             {
                 'Id' :2,
                 'FatherName' : 'Deepa',
                 'MotherName' : 'Somu'
-        },
+            },
         {
             'Id' :3,
             'FatherName' : 'Usha',
