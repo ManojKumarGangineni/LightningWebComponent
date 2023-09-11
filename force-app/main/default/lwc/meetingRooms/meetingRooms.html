@@ -1,10 +1,10 @@
 <template>
     <lightning-card>
         <ul>
-        <template for:each={meetingRooms} for:item="room">
+        <template for:each={meetingRoomsInfo} for:item="room">
             <li key ={room.roomName} style="padding : 10 px" > 
-                <c-meeting-room meeting-room-info ={room} >
-                </c-meeting-room> 
+               <c-meeting-room meeting-room-info ={room}>
+               </c-meeting-room>
 
             </li>
         </template>
