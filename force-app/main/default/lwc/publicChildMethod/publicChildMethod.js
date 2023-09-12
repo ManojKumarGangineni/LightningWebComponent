@@ -1,8 +1,6 @@
-import ReminderDateTime from '@salesforce/schema/Task.ReminderDateTime';
 import { LightningElement,api } from 'lwc';
-
 export default class PublicChildMethod extends LightningElement {
-    value = red;
+    value = ['red'];
     options = [
         { label: 'Red Marker', value: 'red' },
         { label: 'Blue Marker', value: 'blue' },
